@@ -35,24 +35,24 @@ The CI/CD pipeline performs the following steps automatically on every `push` to
 
 1. Clone This Repository
 
-git clone https://github.com/DhanshreeWagh/Task1-node-deploy.git
-cd Task1-node-deploy
+    git clone https://github.com/DhanshreeWagh/Task1-node-deploy.git
+    cd Task1-node-deploy
 
 2.  Make a Code Change and Push:
 
-git add .
-git commit -m "Trigger CI/CD"
-git push origin main
+     git add .
+     git commit -m "Trigger CI/CD"
+     git push origin main
 
 3.  Docker Image
 
-Image is pushed to:
-
-docker.io/dhanshreewagh/task1-node-deploy:latest
+    Image is pushed to: docker.io/dhanshreewagh/task1-node-deploy:latest
 
 
-Author
+Author:
+
 Dhanshree Wagh
+
 GitHub: @DhanshreeWagh
 
 
